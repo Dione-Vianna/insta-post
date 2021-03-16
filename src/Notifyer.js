@@ -6,10 +6,11 @@ const Notilyer = {
     }
   },
   notify({ title, body, icon }) {
-    new Notification(title, {
-      body,
-      icon,
-    });
+    return () =>
+      new Notification(title, {
+        body,
+        icon,
+      });
   },
 };
 
