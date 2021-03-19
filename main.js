@@ -13,6 +13,7 @@ function createWindow() {
     frame: false,
     resizable: false,
     fullscreenable: false,
+    icon: __dirname + '/public/img/logo.png',
   });
 
   win.loadFile('index.html');
