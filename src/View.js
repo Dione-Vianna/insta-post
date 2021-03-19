@@ -1,7 +1,7 @@
 const View = {
   render({ minutes, seconds }) {
     document.body.innerHTML = `
-    <p>Próximo Alert</p>
+    <p>Pomodoro</p>
    <span>${minutes}:${seconds}</span>`;
   },
   // render() {
